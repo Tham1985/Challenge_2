@@ -1,0 +1,128 @@
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #d9dcd6;
+    height: 1000px;
+           }
+
+
+header nav ul li:hover {
+    background-color: blue;
+    color: #fff;
+  }
+
+  header {
+    padding: 10px;
+    margin: 25px;
+    margin-left: 120px;
+    background-color: #2a607c;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 80%;
+    height: 10%;
+    
+                                       }
+
+ header h1 {
+font-size: 30px;
+color: white;
+margin-bottom: 5px;
+}
+
+ul{
+    text-align: right;
+}
+
+header nav ul li {
+    margin-right: 50px;
+    display: inline;
+    font-size: 20px;
+   }
+
+a {
+    color: white;
+    
+    }
+
+    header nav {
+        margin: 0px;
+              }
+
+.hero {
+    height: 400px;
+    width: 80%;
+    margin: 30px 120px;
+    background-image: url("../images/Tham_p.jpg");
+    background-size: cover;
+    background-position: center;
+       }
+
+.heros {
+        margin-right: 20px;
+        margin-left: 25px;
+        padding: 20px;
+        float: left;
+        width: 40%;
+        height: 80%;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        background-color: #2589bd;
+                     }
+     
+
+.About {
+        color: white;
+        background-color: #2a607c;
+        margin: 10px;
+                }
+        
+.Edu {
+    color: white;
+    background-color: #2a607c;
+    margin: 10px;
+                }
+            
+.Exp {
+    color: white;
+    background-color: #2a607c;
+    margin: 10px;  
+}
+
+    h2{
+        margin: 5px
+    }
+
+@media screen and (max-width: 992px) {
+            header h1 {
+              color: green;
+            }
+    
+.forms {
+    margin-right: 20px;
+    margin-left: 25px;
+    padding: 20px;
+    float: left;
+    width: 40%;
+    height: 80%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+    
+     
+}
+      
+ .foooter {
+    padding: 10px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: 10px;
+    margin-top: 30px;
+               }
+
+ 
