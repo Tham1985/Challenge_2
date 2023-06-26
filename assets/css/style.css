@@ -44,6 +44,7 @@ header nav ul li {
     margin-right: 50px;
     display: inline;
     font-size: 20px;
+    text-decoration: none;
    }
 
 a {
@@ -62,7 +63,7 @@ a {
     background-image: url("../images/Tham_p.jpg");
     background-size: cover;
     background-position: center;
-       }
+           }
 
 .heros {
         margin-right: 20px;
@@ -106,14 +107,13 @@ a {
 .forms {
     margin-right: 20px;
     margin-left: 25px;
-    padding: 20px;
     float: left;
     width: 40%;
     height: 80%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
     
-     
+    
 }
       
  .foooter {
@@ -122,7 +122,6 @@ a {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
     font-size: 10px;
-    margin-top: 30px;
-               }
+                   }
 
  
